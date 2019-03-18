@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginEnd="10dp">
+
+    <ImageView
+        android:id="@+id/menu"
+        style="@style/MenuStyle"
+        android:src="@drawable/circle_music"
+        android:contentDescription="@string/main_menu" />
+
+    <ImageView
+        android:id="@+id/item_one"
+        style="@style/MenuStyle"
+        android:src="@drawable/linux"
+        android:visibility="gone"
+        android:contentDescription="@string/menu_one" />
+
+    <ImageView
+        android:id="@+id/item_two"
+        style="@style/MenuItemStyle"
+        android:src="@drawable/camera"
+        android:visibility="gone"
+        android:contentDescription="@string/menu_two" />
+
+    <ImageView
+        android:id="@+id/item_three"
+        style="@style/MenuItemStyle"
+        android:src="@drawable/music"
+        android:visibility="gone"
+        android:contentDescription="@string/menu_three" />
+
+    <ImageView
+        android:id="@+id/item_four"
+        style="@style/MenuItemStyle"
+        android:src="@drawable/planet"
+        android:visibility="gone"
+        android:contentDescription="@string/menu_four"/>
+
+    <ImageView
+        android:id="@+id/item_five"
+        style="@style/MenuItemStyle"
+        android:src="@drawable/moon"
+        android:visibility="gone"
+        android:contentDescription="@string/menu_five" />
+
+</FrameLayout>

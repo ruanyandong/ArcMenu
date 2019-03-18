@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SatelliteView</string>
+    <string name="main_menu">主菜单</string>
+    <string name="menu_one">菜单1</string>
+    <string name="menu_two">菜单2</string>
+    <string name="menu_three">菜单3</string>
+    <string name="menu_four">菜单4</string>
+    <string name="menu_five">菜单5</string>
+</resources>
